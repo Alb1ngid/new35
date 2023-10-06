@@ -1,5 +1,5 @@
 # принципы ооп
-# абстракция наследование-полиморфизм     инкапсуляция
+#наследование-полиморфизм  инкапсуляция
 
 class A:
     b = True
@@ -36,6 +36,8 @@ class B(A):
     def sNAME(self):
         print(self.name, self.age)
 
+    def NAME_NAME(self):
+        A.sNAME(self)
 
 
 b = B('name', 11)
@@ -45,3 +47,4 @@ b.newName('name2')
 b.sNAME()
 b.NAME_NAME()
 # gitignore
+
