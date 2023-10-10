@@ -11,5 +11,5 @@ git push origin master/main
 
 
 
-git status -s
-git rm --cached namefile
+git status -s показывает изменения
+git rm --cached namefile удаляет файлы

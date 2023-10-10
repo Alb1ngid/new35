@@ -1,7 +1,8 @@
 # принципы ооп
 #наследование-полиморфизм  инкапсуляция
 
-class A:
+# object
+class A(object):  #суперкласс:родительский класс
     b = True
 
     def __init__(self, name):
@@ -22,7 +23,7 @@ a6 = A('Бека')
 a.sNAME()
 
 
-class B(A):
+class B(A): # дочерний класс
     b = False
 
     def __init__(self, name, age):
@@ -48,3 +49,4 @@ b.sNAME()
 b.NAME_NAME()
 # gitignore
 
+print(B.mro())
