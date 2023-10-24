@@ -12,10 +12,15 @@ class Name:
     @property
     def nameis(self):
         return (self.__name)
-
     @nameis.setter
     def nameis(self, name):
         self.__name = name
+
+
+
+
+
+
 
     @staticmethod
     def method():
