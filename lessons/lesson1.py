@@ -42,3 +42,8 @@ print(human33)
 
 
 print(human.printHead())
+
+def a(a,b):
+    return a,b
+print(a(1,8))
+
